@@ -31,9 +31,9 @@ if s2<s3:
 print(f"{s1}>{s2}>{s3}")
 """
 
-fiyat1,fiyat2=250,100
+"""fiyat1,fiyat2=250,100
 if fiyat1> 200:
     print(f"{fiyat2}%25")
 
 else:
-    pass
+    pass"""
