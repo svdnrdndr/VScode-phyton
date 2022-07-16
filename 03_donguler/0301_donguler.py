@@ -115,12 +115,12 @@ while True:
 
 #region while_yazim_kurallari
 """
-1 → BAŞLANGIÇ
+"""1 → BAŞLANGIÇ
 2 → BİTİŞ
 3 → ARTIŞ MİKTARI
  
 i = 0
-print("a")
+print("a")"""
 while i<=3:
     i +=1
     print("b")
