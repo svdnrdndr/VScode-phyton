@@ -36,6 +36,8 @@ print('Türkiyen\'nin Başkenti Ankara\'dır')
 şöyle bir çıktıyı tek bir print kullanarak ekrana yazınız;
 kim    korkar
 pythondan
+
+print("kim\tkorkar\npyhtondan")
 """
 
 # ödev →

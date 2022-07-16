@@ -125,4 +125,4 @@ for ogrenci in ogrenciler:
     else:
         print(f"{ogrenci[0]} {ogrenci[1]} {ort}→ geçti.")"""
 
-print("kim\tkorkar\npyhtondan")
+
