@@ -50,14 +50,14 @@ Hoşgeldiniz Yönetici
 """
 
 
-
+"""
 adi,parola =int(input("lütfen kullanıcı adı giriniz")), int(input("lütfen kullanıcı parolası giriniz"))
 if adi != admin:
     print("hatalı kullanıcı")
 if parola !=123:
     print("hatalı parola") 
 else print("hoşgeldin yönetici")
-
+"""
 """kullaniciAdi = input("Lütfen Kullanıcı Adı Giriniz\t")
 parola = int(input("Lütfen Kullanıcı Parolası Giriniz\t"))
 if kullaniciAdi != "admin" :
@@ -69,3 +69,42 @@ else :
     else :
         print ("parola hatalı. lütfen doğru parolayı giriniz")
 """
+# nested if
+# region ornek_1
+"""
+havaYagisliMi = False
+havaSogukMu = False
+i = 1
+print("a")
+if havaYagisliMi == True:
+    if havaSogukMu == True:
+        print("b")
+    else:
+        print("c")
+else:
+    if i == 0:
+        print("d")
+    else:
+        print("e")
+print("f")
+"""
+# endregion
+
+# region ornek_2
+"""
++   kullanıcı değer girecek
++   int dönüşümü yapılacak
++   kullanıcı 0 yada negatif değer girmemeli
++   0-100 arası yada 100+ olup/olmadığını bulan prog.
++   ekrana kullanıcı dostu çıktı verecek
+"""
+a = int(input("lütfen sayı giriniz \t : "))
+if a > 0:
+    if a < 100:
+        print(f"{a} sayı 100 den küçüktür, pozitif")
+    else:
+        print(f"{a} sayı 100 den büyüktür, pozitif")
+else:
+    print("lütfen 0 yada negatif değer girmeyin")
+
+# endregion
