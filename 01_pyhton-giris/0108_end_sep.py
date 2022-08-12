@@ -1,7 +1,7 @@
-print ("İstanbul", "beşiktaş", sep="-", end=">>")
+"""print ("İstanbul", "beşiktaş", sep="-", end=">>")
 print ("Ecodation", "eğitim","kurumu", sep="*")
 # invoke
-
+"""
 #print()
 """
 print("ecodation")
