@@ -1,0 +1,4 @@
+#region
+ogrenci="ezgi"
+printf("ogrenci")
+#endregion
