@@ -1,4 +1,4 @@
 #region
 ogrenci="ezgi"
-printf("ogrenci")
+print("ogrenci")
 #endregion
