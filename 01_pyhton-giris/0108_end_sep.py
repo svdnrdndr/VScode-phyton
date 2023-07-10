@@ -28,15 +28,11 @@ print('Türkiyen\'nin Başkenti Ankara\'dır')
 """
 
 
-
-
-
 # ödev →
 """
 şöyle bir çıktıyı tek bir print kullanarak ekrana yazınız;
 kim    korkar
 pythondan
-
 print("kim\tkorkar\npyhtondan")
 """
 
@@ -52,3 +48,4 @@ print("S.No\tAd\tSoyad\n---\t---\t---\n1\tEkin\tAkın")
 
 # 2. çözüm
 print(r"C:\Windows\System32\networklist")
+print("s.n\tad\tsoyad\n---\t---\t---\n1\tyusuf\tşahin")
