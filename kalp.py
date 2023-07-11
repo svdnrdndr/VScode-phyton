@@ -11,7 +11,7 @@ t=turtle.Turtle()
 t.speed(500)
 turtle.bgcolor('black')
 
-for i in range(2550):
+for i in range(3000):
     t.goto((xt(i)*20,yt(i)*20))
     t.pencolor('red')
     t.goto(0,0)
