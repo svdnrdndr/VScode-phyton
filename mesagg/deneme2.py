@@ -34,7 +34,7 @@ def send_random_message():
     send_message(phone_number, message)
 
 # Her saat başı rastgele bir mesaj gönderme işlemini planlama
-schedule.every().hour.at(":00").do(send_random_message)
+schedule.every().hour.at("14:00").do(send_random_message)
 
 while True:
     schedule.run_pending()
