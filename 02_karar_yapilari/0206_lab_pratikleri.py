@@ -9,7 +9,6 @@ if bankaAdi!=transferBanka:
 print(f"{transfer} TL. transfer edildi, bakiyenizde {bakiye-transfer-kesinti} TL. kaldı")
 #... TL. transfer edildi, bakiyenizde ... TL. kaldı
 """
-kullaniciSayi= int(input("Lütfen bir sayı giriniz."))
 # region ornek_1
 """
 bavulAgirligi = 16
@@ -116,3 +115,11 @@ Kargo Bedeli 7.5 TL.’dir
 Satın Alınan Ürünlerin Toplam Fiyatı 250 TL üzeri olduğunda kargo bedavadır.
 Kullanıcıdan fiyat bilgisi alıp ekrana ödenecek tutarı yazan prog.?
 """
+""""""
+s1= int(input("Sepet toplami: "))
+s2= 7.5
+toplamF=s1+s2
+if toplamF >=250:
+  print(f"Toplam tutariniz1{round(s1)}")
+else:
+  print(f"Toplam tutariniz{round(toplamF)}")
