@@ -1,19 +1,23 @@
-
-
-
-
 """
 """
 """
-"""
+
 yüklesklik=5
-def draw_triangle(n):
-    for i in range(n):
-        for j in range(n-i-1):
-            print("*",end="")
-        for j in range(n-i+1):
-            print("*",end="")
-        print()
-draw_triangle(yüklesklik)
+"""
+'''
+'''
+""""""
+"""
+"""
+"""
+"""
+def main():
+    value=99
+    print("The value is {value}")
+    change_me(value)
+    print(f"back in main the value is {value}.")
 
-
+    def change_me(arg):
+        print("I am changing the value")
+        arg=0
+        print(f"now the value is{arg}")
