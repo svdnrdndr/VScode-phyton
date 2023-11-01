@@ -1,22 +1,19 @@
 
 
-a=15
-b=25
-temp=a 
-a=b
-b=temp
-a,b=b,a
-print("a degeri",a,"b degeri",b)
 
 
-
-
-
-
-
-
-
-
-
+"""
+"""
+"""
+"""
+yüklesklik=5
+def draw_triangle(n):
+    for i in range(n):
+        for j in range(n-i-1):
+            print("*",end="")
+        for j in range(n-i+1):
+            print("*",end="")
+        print()
+draw_triangle(yüklesklik)
 
 
